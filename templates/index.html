@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title>Chat History</title></head>
+<body>
+<h1>🧠 Chat History</h1>
+<form method="get">
+    <input type="text" name="q" placeholder="Search..." value="{{ request.args.get('q', '') }}">
+    <button type="submit">Search</button>
+</form>
+
+{% for chat in chats %}
+    <div style="margin-bottom: 20px; padding: 10px; border: 1px solid #ccc;">
+        <strong>{{ chat.timestamp.strftime('%Y-%m-%d %H:%M') }}</strong>
+        <ul>
+            {% for msg in chat.conversation[:3] %}
+                <li><strong>{{ msg.sender }}:</strong> {{ msg.text }}</li>
+            {% endfor %}
+        </ul>
+        <a href="{{ url_for('view_chat', chat_id=chat._id) }}">View full chat</a>
+    </div>
+{% endfor %}
+</body>
+</html>

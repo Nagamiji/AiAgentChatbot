@@ -1,0 +1,8 @@
+http://127.0.0.1:5000/chat-ui
+
+
+docker exec -it my_rag_pgvector_container psql -U postgres -d postgres
+
+
+
+# post man: http://127.0.0.1:5000/api/chat

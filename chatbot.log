@@ -1,0 +1,391 @@
+[2025-03-28 18:33:01,811] INFO - Conversation saved
+[2025-03-28 18:33:01,813] WARNING - No matching product found
+[2025-03-28 18:33:01,813] ERROR - LLM request failed
+[2025-03-28 18:33:01,923] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 18:33:01,925] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 18:33:01,973] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 18:33:05,170] INFO - Conversation saved
+[2025-03-28 18:33:05,171] WARNING - No matching product found
+[2025-03-28 18:33:05,171] ERROR - LLM request failed
+[2025-03-28 18:33:05,215] WARNING -  * Debugger is active!
+[2025-03-28 18:33:05,228] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 18:39:42,842] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 18:39:42,949] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 18:39:42,993] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 18:39:45,929] WARNING -  * Debugger is active!
+[2025-03-28 18:39:45,974] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 18:42:27,354] INFO - 127.0.0.1 - - [28/Mar/2025 18:42:27] "[33mPOST /api/chat HTTP/1.1[0m" 404 -
+[2025-03-28 18:43:40,701] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-03-28 18:43:41,050] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-03-28 18:43:41,912] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 18:46:29,431] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 18:46:29,432] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 18:46:29,480] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 18:46:33,739] WARNING -  * Debugger is active!
+[2025-03-28 18:46:33,758] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 18:46:40,096] INFO - Found 1 FAQ match(es).
+[2025-03-28 18:46:40,174] WARNING - No order found for ID: 123
+[2025-03-28 18:46:40,235] INFO - Product found by name match.
+[2025-03-28 18:49:03,383] INFO - LLM response successfully received.
+[2025-03-28 18:49:03,777] INFO - API call with no Mongo save for user 'alex'.
+[2025-03-28 18:49:03,857] INFO - 127.0.0.1 - - [28/Mar/2025 18:49:03] "POST /api/chat HTTP/1.1" 200 -
+[2025-03-28 18:50:49,700] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 18:50:49,704] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 18:50:49,744] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 18:50:53,060] WARNING -  * Debugger is active!
+[2025-03-28 18:50:53,080] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 18:50:58,183] INFO - 127.0.0.1 - - [28/Mar/2025 18:50:58] "GET / HTTP/1.1" 200 -
+[2025-03-28 18:50:59,544] INFO - 127.0.0.1 - - [28/Mar/2025 18:50:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-03-28 18:56:46,401] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 18:56:46,402] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 18:56:46,429] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 18:56:50,085] WARNING -  * Debugger is active!
+[2025-03-28 18:56:50,097] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 18:56:50,180] INFO - 127.0.0.1 - - [28/Mar/2025 18:56:50] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 18:56:50,524] INFO - 127.0.0.1 - - [28/Mar/2025 18:56:50] "GET /static/style.css HTTP/1.1" 200 -
+[2025-03-28 18:57:10,580] INFO - Found 1 FAQ match(es).
+[2025-03-28 18:57:10,581] INFO - No order ID found in question.
+[2025-03-28 18:57:10,729] INFO - Product found by name match.
+[2025-03-28 18:59:56,651] INFO - LLM response successfully received.
+[2025-03-28 18:59:57,212] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 18:59:57,214] INFO - Saved conversation for user 'web-user' via API.
+[2025-03-28 18:59:57,315] INFO - 127.0.0.1 - - [28/Mar/2025 18:59:57] "POST /chat-ui HTTP/1.1" 200 -
+[2025-03-28 18:59:58,570] INFO - 127.0.0.1 - - [28/Mar/2025 18:59:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 19:01:06,701] INFO - Found 1 FAQ match(es).
+[2025-03-28 19:01:07,053] INFO - No order ID found in question.
+[2025-03-28 19:01:07,109] INFO - Product found by name match.
+[2025-03-28 19:01:07,879] INFO - Found 1 FAQ match(es).
+[2025-03-28 19:01:07,880] INFO - No order ID found in question.
+[2025-03-28 19:01:07,916] INFO - Product found by name match.
+[2025-03-28 19:01:24,846] INFO - Found 1 FAQ match(es).
+[2025-03-28 19:01:24,849] INFO - No order ID found in question.
+[2025-03-28 19:01:24,992] INFO - Product found by name match.
+[2025-03-28 19:08:50,033] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 19:08:50,142] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 19:08:50,156] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 19:08:52,715] WARNING -  * Debugger is active!
+[2025-03-28 19:08:52,725] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 19:09:51,328] INFO - 127.0.0.1 - - [28/Mar/2025 19:09:51] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 19:09:51,610] INFO - 127.0.0.1 - - [28/Mar/2025 19:09:51] "GET /static/style.css HTTP/1.1" 200 -
+[2025-03-28 19:10:06,484] INFO - Found 1 FAQ match(es).
+[2025-03-28 19:10:06,486] INFO - No order ID found in question.
+[2025-03-28 19:10:06,544] INFO - Product found by name match.
+[2025-03-28 19:12:05,928] INFO - Found 1 FAQ match(es).
+[2025-03-28 19:12:06,353] INFO - No order ID found in question.
+[2025-03-28 19:12:07,110] INFO - Product found by name match.
+[2025-03-28 19:13:15,863] INFO - LLM response successfully received.
+[2025-03-28 19:13:16,103] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 19:13:16,104] INFO - Saved conversation for user 'web-user' via API.
+[2025-03-28 19:13:16,165] INFO - 127.0.0.1 - - [28/Mar/2025 19:13:16] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 19:13:50,736] INFO - LLM response successfully received.
+[2025-03-28 19:13:50,746] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 19:13:50,748] INFO - Saved conversation for user 'web-user' via API.
+[2025-03-28 19:13:50,756] INFO - 127.0.0.1 - - [28/Mar/2025 19:13:50] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 19:13:50,946] INFO - 127.0.0.1 - - [28/Mar/2025 19:13:50] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 19:13:51,284] INFO - 127.0.0.1 - - [28/Mar/2025 19:13:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 19:13:51,486] INFO - 127.0.0.1 - - [28/Mar/2025 19:13:51] "GET /static/ai.png HTTP/1.1" 200 -
+[2025-03-28 19:13:51,493] INFO - 127.0.0.1 - - [28/Mar/2025 19:13:51] "GET /static/user.jpeg HTTP/1.1" 200 -
+[2025-03-28 19:20:11,989] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 19:20:11,990] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 19:20:12,009] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 19:20:13,851] WARNING -  * Debugger is active!
+[2025-03-28 19:20:13,864] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 19:20:29,951] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:29] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 19:20:30,457] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:30] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 19:20:30,513] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 19:20:30,516] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:30] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 19:20:34,107] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:34] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 19:20:34,128] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 19:20:34,137] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:34] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 19:20:34,137] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:34] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 19:20:55,547] INFO - Found 1 FAQ match(es).
+[2025-03-28 19:20:55,549] INFO - No order ID found in question.
+[2025-03-28 19:20:55,750] INFO - Product found by name match.
+[2025-03-28 19:23:25,854] INFO - LLM response successfully received.
+[2025-03-28 19:23:26,195] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 19:23:26,198] INFO - Saved conversation for user 'web-user' via API.
+[2025-03-28 19:23:26,294] INFO - 127.0.0.1 - - [28/Mar/2025 19:23:26] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 19:23:26,527] INFO - 127.0.0.1 - - [28/Mar/2025 19:23:26] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 19:23:27,461] INFO - 127.0.0.1 - - [28/Mar/2025 19:23:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 19:23:27,462] INFO - 127.0.0.1 - - [28/Mar/2025 19:23:27] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 19:23:27,464] INFO - 127.0.0.1 - - [28/Mar/2025 19:23:27] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:01:32,456] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 22:01:32,458] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 22:01:32,497] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 22:01:35,641] WARNING -  * Debugger is active!
+[2025-03-28 22:01:35,652] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 22:01:48,220] INFO - 127.0.0.1 - - [28/Mar/2025 22:01:48] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:01:48,494] INFO - 127.0.0.1 - - [28/Mar/2025 22:01:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 22:01:49,734] INFO - 127.0.0.1 - - [28/Mar/2025 22:01:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-03-28 22:02:24,520] INFO - Found 1 FAQ match(es).
+[2025-03-28 22:02:24,522] INFO - No order ID found in question.
+[2025-03-28 22:02:24,629] INFO - Product found by name match.
+[2025-03-28 22:03:48,067] INFO - LLM response successfully received.
+[2025-03-28 22:03:48,607] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 22:03:48,609] INFO - Saved conversation for user 'web-user' via API.
+[2025-03-28 22:03:48,701] INFO - 127.0.0.1 - - [28/Mar/2025 22:03:48] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 22:03:49,025] INFO - 127.0.0.1 - - [28/Mar/2025 22:03:49] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:03:50,248] INFO - 127.0.0.1 - - [28/Mar/2025 22:03:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 22:03:50,320] INFO - 127.0.0.1 - - [28/Mar/2025 22:03:50] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 22:03:50,324] INFO - 127.0.0.1 - - [28/Mar/2025 22:03:50] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:09:54,756] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 22:09:54,760] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 22:09:54,785] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 22:09:57,040] WARNING -  * Debugger is active!
+[2025-03-28 22:09:57,063] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 22:10:04,290] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\__init__.py', reloading
+[2025-03-28 22:10:04,497] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py', reloading
+[2025-03-28 22:10:04,500] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+[2025-03-28 22:10:04,501] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+[2025-03-28 22:10:04,503] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\server.py', reloading
+[2025-03-28 22:10:04,505] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socketserver.py', reloading
+[2025-03-28 22:10:04,664] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 22:10:04,692] INFO - 127.0.0.1 - - [28/Mar/2025 22:10:04] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 22:10:04,736] INFO - 127.0.0.1 - - [28/Mar/2025 22:10:04] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:10:05,183] INFO - 127.0.0.1 - - [28/Mar/2025 22:10:05] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 22:10:05,184] INFO - 127.0.0.1 - - [28/Mar/2025 22:10:05] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:10:05,194] INFO - 127.0.0.1 - - [28/Mar/2025 22:10:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 22:10:05,670] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 22:10:07,792] WARNING -  * Debugger is active!
+[2025-03-28 22:10:07,801] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 22:15:42,388] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 22:15:42,391] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 22:15:42,415] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 22:15:44,157] WARNING -  * Debugger is active!
+[2025-03-28 22:15:44,164] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 22:15:55,085] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 22:15:55,101] INFO - 127.0.0.1 - - [28/Mar/2025 22:15:55] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 22:15:55,221] INFO - 127.0.0.1 - - [28/Mar/2025 22:15:55] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:15:55,524] INFO - 127.0.0.1 - - [28/Mar/2025 22:15:55] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:15:55,527] INFO - 127.0.0.1 - - [28/Mar/2025 22:15:55] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 22:15:55,529] INFO - 127.0.0.1 - - [28/Mar/2025 22:15:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 22:21:17,526] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 22:21:17,536] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 22:21:17,558] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 22:21:19,273] WARNING -  * Debugger is active!
+[2025-03-28 22:21:19,281] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 22:22:13,126] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:13] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:22:13,411] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 22:22:13,412] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:13] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:22:13,433] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:13] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 22:22:16,805] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:16] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:22:16,837] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 22:22:16,849] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:16] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:22:16,850] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:16] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 22:22:20,603] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 22:22:20,621] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:20] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 22:22:20,629] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:20] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:22:20,663] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 22:22:20,667] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:20] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:22:20,670] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:20] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 22:27:30,087] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 22:27:30,106] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 22:27:30,124] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 22:27:32,232] WARNING -  * Debugger is active!
+[2025-03-28 22:27:32,241] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 22:27:32,817] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:32] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:27:33,052] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:33] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:27:33,063] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 22:27:33,064] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:33] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 22:27:46,008] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 22:27:46,023] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:46] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 22:27:46,033] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:46] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:27:46,059] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 22:27:46,067] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:46] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:27:46,067] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:46] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 22:36:02,270] INFO - 127.0.0.1 - - [28/Mar/2025 22:36:02] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:36:02,328] INFO - 127.0.0.1 - - [28/Mar/2025 22:36:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 22:36:02,332] INFO - 127.0.0.1 - - [28/Mar/2025 22:36:02] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:36:02,337] INFO - 127.0.0.1 - - [28/Mar/2025 22:36:02] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 22:36:27,803] INFO - No order ID found in question.
+[2025-03-28 22:36:27,858] INFO - Product found by name match.
+[2025-03-28 22:36:29,126] INFO - No order ID found in question.
+[2025-03-28 22:36:29,165] INFO - Product found by name match.
+[2025-03-28 22:39:26,513] INFO - LLM response successfully received.
+[2025-03-28 22:39:27,093] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 22:39:27,316] INFO - 127.0.0.1 - - [28/Mar/2025 22:39:27] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 22:39:33,616] INFO - LLM response successfully received.
+[2025-03-28 22:39:33,623] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 22:39:33,664] INFO - 127.0.0.1 - - [28/Mar/2025 22:39:33] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 22:39:33,827] INFO - 127.0.0.1 - - [28/Mar/2025 22:39:33] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:39:34,264] INFO - 127.0.0.1 - - [28/Mar/2025 22:39:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 22:39:34,266] INFO - 127.0.0.1 - - [28/Mar/2025 22:39:34] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 22:39:34,268] INFO - 127.0.0.1 - - [28/Mar/2025 22:39:34] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:46:33,488] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 22:46:33,500] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 22:46:33,540] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 22:46:36,070] WARNING -  * Debugger is active!
+[2025-03-28 22:46:36,092] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 22:46:41,239] INFO - 127.0.0.1 - - [28/Mar/2025 22:46:41] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:46:42,029] INFO - 127.0.0.1 - - [28/Mar/2025 22:46:42] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:46:42,050] INFO - 127.0.0.1 - - [28/Mar/2025 22:46:42] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 22:46:42,052] INFO - 127.0.0.1 - - [28/Mar/2025 22:46:42] "GET /static/style.css HTTP/1.1" 200 -
+[2025-03-28 22:47:30,177] INFO - No order ID found in question.
+[2025-03-28 22:47:30,221] INFO - Product found by name match.
+[2025-03-28 22:47:31,528] INFO - No order ID found in question.
+[2025-03-28 22:47:31,569] INFO - Product found by name match.
+[2025-03-28 22:47:44,354] INFO - No order ID found in question.
+[2025-03-28 22:47:46,675] INFO - Product found by name match.
+[2025-03-28 22:48:18,356] INFO - No order ID found in question.
+[2025-03-28 22:48:19,225] INFO - Product found by name match.
+[2025-03-28 22:53:03,134] INFO - LLM response successfully received.
+[2025-03-28 22:53:03,762] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 22:53:04,586] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:04] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 22:53:08,627] INFO - LLM response successfully received.
+[2025-03-28 22:53:08,641] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 22:53:08,712] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:08] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 22:53:25,485] INFO - LLM response successfully received.
+[2025-03-28 22:53:25,502] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 22:53:25,671] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:25] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 22:53:26,487] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:26] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 22:53:28,039] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:28] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 22:53:28,066] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:28] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 22:53:28,328] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 22:53:34,711] INFO - LLM response successfully received.
+[2025-03-28 22:53:34,717] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 22:53:34,747] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:34] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 23:03:30,452] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 23:03:30,547] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 23:03:30,578] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 23:03:33,799] WARNING -  * Debugger is active!
+[2025-03-28 23:03:33,832] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 23:03:38,696] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:38] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:03:39,055] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:39] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:03:39,059] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:39] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:03:39,072] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:39] "GET /static/style.css HTTP/1.1" 200 -
+[2025-03-28 23:03:45,798] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:45] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:03:45,820] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:03:45,824] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:45] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:03:45,829] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:45] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:03:47,281] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:47] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:03:47,329] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:03:47,343] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:47] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:03:47,345] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:47] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:11,265] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 23:11:11,266] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 23:11:11,284] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 23:11:13,522] WARNING -  * Debugger is active!
+[2025-03-28 23:11:13,532] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 23:11:17,664] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:17] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:11:17,928] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:17,944] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:17] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:17,946] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:17] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:22,386] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:22] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:11:22,409] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:22,420] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:22] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:22,421] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:22] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:23,744] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:23] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:11:23,766] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:23,776] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:23] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:23,778] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:23] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:48,346] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:48] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:11:48,381] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:48,395] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:48] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:48,395] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:48] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:49,571] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:49] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:11:49,600] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:49,617] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:49] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:49,619] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:49] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:54,773] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:54] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:11:54,800] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:54,817] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:54] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:11:54,818] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:54] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:14:59,824] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-03-28 23:14:59,826] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-03-28 23:15:00,420] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 23:15:03,150] WARNING -  * Debugger is active!
+[2025-03-28 23:15:03,157] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 23:15:56,776] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:56] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:15:57,008] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:57] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:15:57,014] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:15:57,015] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:57] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:15:58,067] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:58] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:15:58,090] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:15:58,094] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:58] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:15:58,094] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:58] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:17:04,629] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:04] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:17:04,678] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:17:04,684] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:04] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:17:04,687] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:04] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:17:48,006] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:48] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:17:48,033] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:17:48,044] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:48] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:17:48,045] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:48] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:17:52,155] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:52] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:17:52,192] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:17:52,195] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:52] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:17:52,199] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:52] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:17:59,801] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:59] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:17:59,826] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:17:59,842] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:59] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:17:59,845] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:59] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:24:04,410] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:04] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:24:04,433] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:24:04,438] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:04] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:24:04,439] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:04] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:24:04,658] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-03-28 23:24:07,401] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:07] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
+[2025-03-28 23:24:07,472] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:07] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:24:07,486] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:07] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:24:07,505] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:24:11,268] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:11] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
+[2025-03-28 23:24:11,274] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:11] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:24:11,286] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:11] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:24:11,304] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:24:23,851] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\__init__.py', reloading
+[2025-03-28 23:24:23,886] INFO - No order ID found in question.
+[2025-03-28 23:24:23,887] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py', reloading
+[2025-03-28 23:24:23,890] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\db\\postgres.py', reloading
+[2025-03-28 23:24:23,892] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+[2025-03-28 23:24:23,894] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+[2025-03-28 23:24:23,896] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+[2025-03-28 23:24:23,898] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\server.py', reloading
+[2025-03-28 23:24:23,899] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socketserver.py', reloading
+[2025-03-28 23:24:23,936] INFO - Product found by name match.
+[2025-03-28 23:24:24,221] INFO - No order ID found in question.
+[2025-03-28 23:24:24,252] INFO - Product found by name match.
+[2025-03-28 23:24:25,312] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 23:24:28,511] WARNING -  * Debugger is active!
+[2025-03-28 23:24:28,523] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 23:24:30,065] INFO - No order ID found in question.
+[2025-03-28 23:24:30,108] INFO - Product found by name match.
+[2025-03-28 23:26:56,773] INFO - LLM response successfully received.
+[2025-03-28 23:26:57,052] INFO - Saved conversation for user 'web-user' to MongoDB.
+[2025-03-28 23:26:57,231] INFO - 127.0.0.1 - - [28/Mar/2025 23:26:57] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-03-28 23:26:57,789] INFO - 127.0.0.1 - - [28/Mar/2025 23:26:57] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:26:59,147] INFO - 127.0.0.1 - - [28/Mar/2025 23:26:59] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:26:59,149] INFO - 127.0.0.1 - - [28/Mar/2025 23:26:59] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:26:59,200] INFO - 127.0.0.1 - - [28/Mar/2025 23:26:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:32:30,579] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[2025-03-28 23:32:30,590] INFO - [33mPress CTRL+C to quit[0m
+[2025-03-28 23:32:30,635] INFO -  * Restarting with watchdog (windowsapi)
+[2025-03-28 23:32:33,824] WARNING -  * Debugger is active!
+[2025-03-28 23:32:33,871] INFO -  * Debugger PIN: 989-593-848
+[2025-03-28 23:33:01,520] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:01] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:33:01,976] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:01] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-03-28 23:33:01,980] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:33:01,983] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:01] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-03-28 23:33:05,434] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:05] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
+[2025-03-28 23:33:05,463] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:05] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:33:05,520] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:05] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:33:05,615] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-03-28 23:33:10,170] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:10] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
+[2025-03-28 23:33:10,215] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:10] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:33:10,241] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:10] "GET /chat-ui HTTP/1.1" 200 -
+[2025-03-28 23:33:10,284] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .chat-box {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .chat-form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .chat-form input[type="text"] {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .chat-log {
+            max-height: 500px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+        }
+
+        .message {
+            margin-bottom: 15px;
+        }
+
+        .message.user .bubble {
+            background-color: #d9f7ff;
+        }
+
+        .message.ai .bubble {
+            background-color: #f1f1f1;
+        }
+
+        .bubble {
+            display: flex;
+            gap: 10px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+
+        .text {
+            flex: 1;
+        }
+
+        .text strong {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .timestamp {
+            font-size: 11px;
+            color: #888;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-box">
+        <h2>💬 Ask the AI Assistant</h2>
+
+        <!-- ✅ Input form -->
+        <form method="POST" class="chat-form">
+            <input type="text" name="user_input" placeholder="Type your question..." required>
+            <select name="chat_mode">
+                <option value="normal" {% if session.get('chat_mode') == 'normal' %}selected{% endif %}>Normal (Save)</option>
+                <option value="temp" {% if session.get('chat_mode') == 'temp' %}selected{% endif %}>Temporary (Don't Save)</option>
+            </select>
+            <button type="submit">Send</button>
+        </form>
+
+        <!-- ✅ Chat Log -->
+        <div class="chat-log" id="chat-log">
+            {% for msg in conversation %}
+                <div class="message {{ 'user' if msg.sender == 'You' else 'ai' }}">
+                    <div class="bubble">
+                        <img class="avatar" src="{{ url_for('static', filename='user.jpeg' if msg.sender == 'You' else 'ai.png') }}">
+                        <div class="text">
+                            <strong>{{ msg.sender }}</strong><br>
+                            {% if msg.sender == 'AI' %}
+                                {{ msg.text | safe }}
+                            {% else %}
+                                {{ msg.text }}
+                            {% endif %}
+                            {% if msg.timestamp %}
+                                <div class="timestamp">{{ msg.timestamp }}</div>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <script>
+        // ✅ Wait for full DOM before attaching listeners
+        document.addEventListener("DOMContentLoaded", function () {
+            const chatLog = document.getElementById('chat-log');
+            if (chatLog) {
+                chatLog.scrollTop = chatLog.scrollHeight;
+            }
+    
+            const modeSelect = document.querySelector('select[name="chat_mode"]');
+            if (modeSelect) {
+                modeSelect.addEventListener('change', function () {
+                    if (this.value === 'temp') {
+                        fetch("/clear-chat", { method: "POST" })
+                            .then(() => location.reload())
+                            .catch(err => console.error("Failed to clear chat:", err));
+                    }
+                });
+            }
+        });
+    </script>
+    
+</body>
+</html>

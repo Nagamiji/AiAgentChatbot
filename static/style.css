@@ -1,0 +1,134 @@
+/* 🌐 General Page Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+/* 🗨️ Chat Box Container */
+.chat-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* 📝 Chat Form Styles */
+.chat-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.chat-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.chat-form select {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.chat-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-form button:hover {
+    background-color: #0056b3;
+}
+
+/* 💬 Chat Log */
+.chat-log {
+    max-height: 500px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+/* 💭 Individual Messages */
+.message {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Avatar + Bubble Layout */
+.bubble {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* 🧍 Avatars */
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* 🧑‍💻 User Messages */
+.message.user .bubble {
+    background-color: #d9f7ff;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+/* 🤖 AI Messages */
+.message.ai .bubble {
+    background-color: #f1f1f1;
+}
+
+/* 🖋️ Text Inside Bubbles */
+.text {
+    flex: 1;
+}
+
+.text strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* 🕒 Timestamp */
+.timestamp {
+    font-size: 11px;
+    color: #888;
+    margin-top: 5px;
+    text-align: left;
+}
+
+/* Tables inside AI responses */
+.message.ai table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.message.ai table th,
+.message.ai table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.message.ai table th {
+    background-color: #e9ecef;
+}

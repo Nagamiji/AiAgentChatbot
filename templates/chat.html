@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Detail</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 40px;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    .message {
+      margin-bottom: 15px;
+      background: #fff;
+      padding: 15px;
+      border-left: 5px solid #007bff;
+      border-radius: 4px;
+      box-shadow: 0 0 4px rgba(0,0,0,0.05);
+    }
+
+    .timestamp {
+      font-size: 12px;
+      color: #888;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+<a href="/">← Back</a>
+
+<h2>🗂 Full Conversation</h2>
+
+{% for msg in chat.conversation %}
+  <div class="message">
+    <strong>{{ msg.sender }}</strong><br>
+    {{ msg.text }}
+    {% if msg.timestamp %}
+      <div class="timestamp">{{ msg.timestamp }}</div>
+    {% endif %}
+  </div>
+{% endfor %}
+
+<div class="timestamp">
+  <strong>Session Time:</strong> {{ chat.timestamp }}
+</div>
+
+</body>
+</html>
