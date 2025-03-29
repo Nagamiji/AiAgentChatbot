@@ -1,3 +1,5 @@
+![Flowchart](static/flowchart.jpg)
+
 # 🧠 AiAgentChatbot
 
 A powerful conversational AI chatbot built using **Flask** and **Ollama**, enhanced with **Retrieval-Augmented Generation (RAG)** using **PostgreSQL + pgvector** for intelligent, context-aware responses. Conversations are stored in **MongoDB**, and the web interface is crafted using **HTML, CSS**, and **JavaScript**.
