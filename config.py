@@ -33,4 +33,8 @@ DB_CONFIG = {
 MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
 mongo_client = MongoClient(MONGO_URI)
 mongo_db = mongo_client["chatBotConversation"]
+
+# Define collections for both chats and users
 chat_collection = mongo_db["chat"]
+user_collection = mongo_db["users"]  # Add this line to define user_collection
+

@@ -1,391 +1,453 @@
-[2025-03-28 18:33:01,811] INFO - Conversation saved
-[2025-03-28 18:33:01,813] WARNING - No matching product found
-[2025-03-28 18:33:01,813] ERROR - LLM request failed
-[2025-03-28 18:33:01,923] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2025-04-04 00:00:42,341] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 00:00:42,343] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 00:00:42,344] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 00:00:43,371] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 00:08:48,409] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2025-03-28 18:33:01,925] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 18:33:01,973] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 18:33:05,170] INFO - Conversation saved
-[2025-03-28 18:33:05,171] WARNING - No matching product found
-[2025-03-28 18:33:05,171] ERROR - LLM request failed
-[2025-03-28 18:33:05,215] WARNING -  * Debugger is active!
-[2025-03-28 18:33:05,228] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 18:39:42,842] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2025-04-04 00:08:48,510] INFO - [33mPress CTRL+C to quit[0m
+[2025-04-04 00:08:48,527] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 00:08:50,458] WARNING -  * Debugger is active!
+[2025-04-04 00:08:50,509] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 00:08:53,234] INFO - 127.0.0.1 - - [04/Apr/2025 00:08:53] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 00:08:53,375] INFO - 127.0.0.1 - - [04/Apr/2025 00:08:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 12:38:00,801] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\db\\postgres.py', reloading
+[2025-04-04 12:38:01,736] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 12:38:04,269] WARNING -  * Debugger is active!
+[2025-04-04 12:38:04,277] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 12:38:43,187] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+[2025-04-04 12:38:43,190] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 12:38:43,209] INFO - 127.0.0.1 - - [04/Apr/2025 12:38:43] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+[2025-04-04 12:38:43,365] INFO - 127.0.0.1 - - [04/Apr/2025 12:38:43] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 12:38:43,368] INFO - 127.0.0.1 - - [04/Apr/2025 12:38:43] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 12:38:43,980] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 12:38:45,666] WARNING -  * Debugger is active!
+[2025-04-04 12:38:45,675] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 12:38:45,797] INFO - 127.0.0.1 - - [04/Apr/2025 12:38:45] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 12:38:45,811] INFO - 127.0.0.1 - - [04/Apr/2025 12:38:45] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 12:43:18,666] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 12:43:18,668] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 12:43:19,884] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 12:43:21,896] WARNING -  * Debugger is active!
+[2025-04-04 12:43:21,901] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 12:44:01,826] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 12:44:01,827] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 12:44:02,011] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 12:44:02,012] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 12:44:02,475] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 12:44:05,181] WARNING -  * Debugger is active!
+[2025-04-04 12:44:05,189] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 12:44:06,990] INFO - 127.0.0.1 - - [04/Apr/2025 12:44:06] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 12:44:07,167] INFO - 127.0.0.1 - - [04/Apr/2025 12:44:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 12:44:26,611] INFO - 127.0.0.1 - - [04/Apr/2025 12:44:26] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+[2025-04-04 12:44:26,646] INFO - 127.0.0.1 - - [04/Apr/2025 12:44:26] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 12:44:26,656] INFO - 127.0.0.1 - - [04/Apr/2025 12:44:26] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 12:44:26,875] INFO - 127.0.0.1 - - [04/Apr/2025 12:44:26] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 12:44:26,972] INFO - 127.0.0.1 - - [04/Apr/2025 12:44:26] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 12:48:47,748] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 12:48:47,750] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 12:48:48,557] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 12:48:59,174] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2025-03-28 18:39:42,949] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 18:39:42,993] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 18:39:45,929] WARNING -  * Debugger is active!
-[2025-03-28 18:39:45,974] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 18:42:27,354] INFO - 127.0.0.1 - - [28/Mar/2025 18:42:27] "[33mPOST /api/chat HTTP/1.1[0m" 404 -
-[2025-03-28 18:43:40,701] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
-[2025-03-28 18:43:41,050] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
-[2025-03-28 18:43:41,912] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 18:46:29,431] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2025-04-04 12:48:59,175] INFO - [33mPress CTRL+C to quit[0m
+[2025-04-04 12:48:59,199] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 12:49:00,807] WARNING -  * Debugger is active!
+[2025-04-04 12:49:00,813] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 12:49:03,360] INFO - 127.0.0.1 - - [04/Apr/2025 12:49:03] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 12:49:03,472] INFO - 127.0.0.1 - - [04/Apr/2025 12:49:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 12:49:56,341] INFO - 127.0.0.1 - - [04/Apr/2025 12:49:56] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+[2025-04-04 12:49:56,358] INFO - 127.0.0.1 - - [04/Apr/2025 12:49:56] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 12:49:56,364] INFO - 127.0.0.1 - - [04/Apr/2025 12:49:56] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 12:49:56,481] INFO - 127.0.0.1 - - [04/Apr/2025 12:49:56] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 12:49:56,539] INFO - 127.0.0.1 - - [04/Apr/2025 12:49:56] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 12:56:50,958] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 12:56:50,960] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 12:56:52,487] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:01:02,609] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2025-03-28 18:46:29,432] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 18:46:29,480] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 18:46:33,739] WARNING -  * Debugger is active!
-[2025-03-28 18:46:33,758] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 18:46:40,096] INFO - Found 1 FAQ match(es).
-[2025-03-28 18:46:40,174] WARNING - No order found for ID: 123
-[2025-03-28 18:46:40,235] INFO - Product found by name match.
-[2025-03-28 18:49:03,383] INFO - LLM response successfully received.
-[2025-03-28 18:49:03,777] INFO - API call with no Mongo save for user 'alex'.
-[2025-03-28 18:49:03,857] INFO - 127.0.0.1 - - [28/Mar/2025 18:49:03] "POST /api/chat HTTP/1.1" 200 -
-[2025-03-28 18:50:49,700] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2025-04-04 13:01:02,610] INFO - [33mPress CTRL+C to quit[0m
+[2025-04-04 13:01:02,626] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:01:04,105] WARNING -  * Debugger is active!
+[2025-04-04 13:01:04,110] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:01:17,219] INFO - 127.0.0.1 - - [04/Apr/2025 13:01:17] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 13:01:17,455] INFO - 127.0.0.1 - - [04/Apr/2025 13:01:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:01:31,471] INFO - 127.0.0.1 - - [04/Apr/2025 13:01:31] "GET /auth/register HTTP/1.1" 200 -
+[2025-04-04 13:01:31,494] INFO - 127.0.0.1 - - [04/Apr/2025 13:01:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:01:41,197] INFO - 127.0.0.1 - - [04/Apr/2025 13:01:41] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+[2025-04-04 13:01:41,204] INFO - 127.0.0.1 - - [04/Apr/2025 13:01:41] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 13:01:41,242] INFO - 127.0.0.1 - - [04/Apr/2025 13:01:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:01:52,848] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\helpers.py', reloading
+[2025-04-04 13:01:52,871] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\routing\\map.py', reloading
+[2025-04-04 13:01:52,876] INFO - 127.0.0.1 - - [04/Apr/2025 13:01:52] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+[2025-04-04 13:01:52,918] INFO - 127.0.0.1 - - [04/Apr/2025 13:01:52] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:01:52,936] INFO - 127.0.0.1 - - [04/Apr/2025 13:01:52] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:01:53,039] INFO - 127.0.0.1 - - [04/Apr/2025 13:01:53] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:01:53,108] INFO - 127.0.0.1 - - [04/Apr/2025 13:01:53] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:01:53,703] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:01:55,323] WARNING -  * Debugger is active!
+[2025-04-04 13:01:55,328] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:04:55,079] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 13:04:55,081] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 13:04:55,082] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 13:04:56,028] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:04:57,617] WARNING -  * Debugger is active!
+[2025-04-04 13:04:57,623] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:07:55,055] INFO - 127.0.0.1 - - [04/Apr/2025 13:07:55] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 13:07:55,196] INFO - 127.0.0.1 - - [04/Apr/2025 13:07:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:08:04,122] INFO - 127.0.0.1 - - [04/Apr/2025 13:08:04] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+[2025-04-04 13:08:04,143] INFO - 127.0.0.1 - - [04/Apr/2025 13:08:04] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:08:04,210] INFO - 127.0.0.1 - - [04/Apr/2025 13:08:04] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:08:04,279] INFO - 127.0.0.1 - - [04/Apr/2025 13:08:04] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:08:04,338] INFO - 127.0.0.1 - - [04/Apr/2025 13:08:04] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:14:49,028] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 13:14:49,030] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 13:14:49,394] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 13:14:50,309] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:15:27,528] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2025-03-28 18:50:49,704] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 18:50:49,744] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 18:50:53,060] WARNING -  * Debugger is active!
-[2025-03-28 18:50:53,080] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 18:50:58,183] INFO - 127.0.0.1 - - [28/Mar/2025 18:50:58] "GET / HTTP/1.1" 200 -
-[2025-03-28 18:50:59,544] INFO - 127.0.0.1 - - [28/Mar/2025 18:50:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-[2025-03-28 18:56:46,401] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2025-04-04 13:15:27,529] INFO - [33mPress CTRL+C to quit[0m
+[2025-04-04 13:15:27,547] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:15:30,291] WARNING -  * Debugger is active!
+[2025-04-04 13:15:30,298] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:15:30,774] INFO - 127.0.0.1 - - [04/Apr/2025 13:15:30] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 13:15:30,926] INFO - 127.0.0.1 - - [04/Apr/2025 13:15:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:15:40,696] INFO - 127.0.0.1 - - [04/Apr/2025 13:15:40] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+[2025-04-04 13:15:40,728] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask_login\\utils.py', reloading
+[2025-04-04 13:15:40,731] INFO - 127.0.0.1 - - [04/Apr/2025 13:15:40] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+[2025-04-04 13:15:40,769] INFO - 127.0.0.1 - - [04/Apr/2025 13:15:40] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:15:40,773] INFO - 127.0.0.1 - - [04/Apr/2025 13:15:40] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:15:41,015] INFO - 127.0.0.1 - - [04/Apr/2025 13:15:41] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:15:41,858] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:15:43,494] WARNING -  * Debugger is active!
+[2025-04-04 13:15:43,500] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:26:16,138] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 13:26:16,140] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 13:26:17,177] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:29:54,743] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2025-03-28 18:56:46,402] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 18:56:46,429] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 18:56:50,085] WARNING -  * Debugger is active!
-[2025-03-28 18:56:50,097] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 18:56:50,180] INFO - 127.0.0.1 - - [28/Mar/2025 18:56:50] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 18:56:50,524] INFO - 127.0.0.1 - - [28/Mar/2025 18:56:50] "GET /static/style.css HTTP/1.1" 200 -
-[2025-03-28 18:57:10,580] INFO - Found 1 FAQ match(es).
-[2025-03-28 18:57:10,581] INFO - No order ID found in question.
-[2025-03-28 18:57:10,729] INFO - Product found by name match.
-[2025-03-28 18:59:56,651] INFO - LLM response successfully received.
-[2025-03-28 18:59:57,212] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 18:59:57,214] INFO - Saved conversation for user 'web-user' via API.
-[2025-03-28 18:59:57,315] INFO - 127.0.0.1 - - [28/Mar/2025 18:59:57] "POST /chat-ui HTTP/1.1" 200 -
-[2025-03-28 18:59:58,570] INFO - 127.0.0.1 - - [28/Mar/2025 18:59:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 19:01:06,701] INFO - Found 1 FAQ match(es).
-[2025-03-28 19:01:07,053] INFO - No order ID found in question.
-[2025-03-28 19:01:07,109] INFO - Product found by name match.
-[2025-03-28 19:01:07,879] INFO - Found 1 FAQ match(es).
-[2025-03-28 19:01:07,880] INFO - No order ID found in question.
-[2025-03-28 19:01:07,916] INFO - Product found by name match.
-[2025-03-28 19:01:24,846] INFO - Found 1 FAQ match(es).
-[2025-03-28 19:01:24,849] INFO - No order ID found in question.
-[2025-03-28 19:01:24,992] INFO - Product found by name match.
-[2025-03-28 19:08:50,033] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2025-04-04 13:29:54,744] INFO - [33mPress CTRL+C to quit[0m
+[2025-04-04 13:29:54,761] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:29:56,902] WARNING -  * Debugger is active!
+[2025-04-04 13:29:56,911] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:29:58,106] INFO - 127.0.0.1 - - [04/Apr/2025 13:29:58] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+[2025-04-04 13:29:58,378] INFO - 127.0.0.1 - - [04/Apr/2025 13:29:58] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:29:58,382] INFO - 127.0.0.1 - - [04/Apr/2025 13:29:58] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:29:58,658] INFO - 127.0.0.1 - - [04/Apr/2025 13:29:58] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:29:58,898] INFO - 127.0.0.1 - - [04/Apr/2025 13:29:58] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:31:44,488] INFO - 127.0.0.1 - - [04/Apr/2025 13:31:44] "[31m[1mGET /dashboard HTTP/1.1[0m" 401 -
+[2025-04-04 13:32:34,811] INFO - 127.0.0.1 - - [04/Apr/2025 13:32:34] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 13:32:34,829] INFO - 127.0.0.1 - - [04/Apr/2025 13:32:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:33:08,513] INFO - 127.0.0.1 - - [04/Apr/2025 13:33:08] "[31m[1mGET /dashboard HTTP/1.1[0m" 401 -
+[2025-04-04 13:35:00,223] INFO - 127.0.0.1 - - [04/Apr/2025 13:35:00] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 13:35:00,245] INFO - 127.0.0.1 - - [04/Apr/2025 13:35:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:35:09,746] INFO - 127.0.0.1 - - [04/Apr/2025 13:35:09] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+[2025-04-04 13:35:09,773] INFO - 127.0.0.1 - - [04/Apr/2025 13:35:09] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:35:09,778] INFO - 127.0.0.1 - - [04/Apr/2025 13:35:09] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:35:09,951] INFO - 127.0.0.1 - - [04/Apr/2025 13:35:09] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:35:10,036] INFO - 127.0.0.1 - - [04/Apr/2025 13:35:10] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:43:04,157] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\db\\postgres.py', reloading
+[2025-04-04 13:43:05,263] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:43:07,288] WARNING -  * Debugger is active!
+[2025-04-04 13:43:07,301] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:43:42,772] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 13:43:42,773] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 13:43:43,999] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:50:44,041] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2025-03-28 19:08:50,142] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 19:08:50,156] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 19:08:52,715] WARNING -  * Debugger is active!
-[2025-03-28 19:08:52,725] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 19:09:51,328] INFO - 127.0.0.1 - - [28/Mar/2025 19:09:51] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 19:09:51,610] INFO - 127.0.0.1 - - [28/Mar/2025 19:09:51] "GET /static/style.css HTTP/1.1" 200 -
-[2025-03-28 19:10:06,484] INFO - Found 1 FAQ match(es).
-[2025-03-28 19:10:06,486] INFO - No order ID found in question.
-[2025-03-28 19:10:06,544] INFO - Product found by name match.
-[2025-03-28 19:12:05,928] INFO - Found 1 FAQ match(es).
-[2025-03-28 19:12:06,353] INFO - No order ID found in question.
-[2025-03-28 19:12:07,110] INFO - Product found by name match.
-[2025-03-28 19:13:15,863] INFO - LLM response successfully received.
-[2025-03-28 19:13:16,103] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 19:13:16,104] INFO - Saved conversation for user 'web-user' via API.
-[2025-03-28 19:13:16,165] INFO - 127.0.0.1 - - [28/Mar/2025 19:13:16] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 19:13:50,736] INFO - LLM response successfully received.
-[2025-03-28 19:13:50,746] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 19:13:50,748] INFO - Saved conversation for user 'web-user' via API.
-[2025-03-28 19:13:50,756] INFO - 127.0.0.1 - - [28/Mar/2025 19:13:50] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 19:13:50,946] INFO - 127.0.0.1 - - [28/Mar/2025 19:13:50] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 19:13:51,284] INFO - 127.0.0.1 - - [28/Mar/2025 19:13:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 19:13:51,486] INFO - 127.0.0.1 - - [28/Mar/2025 19:13:51] "GET /static/ai.png HTTP/1.1" 200 -
-[2025-03-28 19:13:51,493] INFO - 127.0.0.1 - - [28/Mar/2025 19:13:51] "GET /static/user.jpeg HTTP/1.1" 200 -
-[2025-03-28 19:20:11,989] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2025-04-04 13:50:44,042] INFO - [33mPress CTRL+C to quit[0m
+[2025-04-04 13:50:44,054] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:50:45,452] WARNING -  * Debugger is active!
+[2025-04-04 13:50:45,458] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:50:48,882] INFO - 127.0.0.1 - - [04/Apr/2025 13:50:48] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 13:50:49,011] INFO - 127.0.0.1 - - [04/Apr/2025 13:50:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:50:53,352] INFO - 127.0.0.1 - - [04/Apr/2025 13:50:53] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 13:50:53,372] INFO - 127.0.0.1 - - [04/Apr/2025 13:50:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:51:05,086] INFO - 127.0.0.1 - - [04/Apr/2025 13:51:05] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+[2025-04-04 13:51:05,098] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+[2025-04-04 13:51:05,104] INFO - 127.0.0.1 - - [04/Apr/2025 13:51:05] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+[2025-04-04 13:51:05,143] INFO - 127.0.0.1 - - [04/Apr/2025 13:51:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:51:05,145] INFO - 127.0.0.1 - - [04/Apr/2025 13:51:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:51:05,339] INFO - 127.0.0.1 - - [04/Apr/2025 13:51:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:51:05,438] INFO - 127.0.0.1 - - [04/Apr/2025 13:51:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:51:06,112] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:51:07,946] WARNING -  * Debugger is active!
+[2025-04-04 13:51:07,954] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:53:24,922] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 13:53:24,924] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 13:53:25,664] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:53:28,500] WARNING -  * Debugger is active!
+[2025-04-04 13:53:28,507] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:53:56,783] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 13:53:56,784] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 13:53:58,104] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:53:59,713] WARNING -  * Debugger is active!
+[2025-04-04 13:53:59,719] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:54:07,794] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\local.py', reloading
+[2025-04-04 13:54:07,808] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask_login\\login_manager.py', reloading
+[2025-04-04 13:54:07,814] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:07] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+[2025-04-04 13:54:07,969] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:07] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:07,972] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:07] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:08,002] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:08] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:09,269] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:54:10,809] WARNING -  * Debugger is active!
+[2025-04-04 13:54:10,815] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:54:11,376] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:11] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+[2025-04-04 13:54:11,572] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:11] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:11,603] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:11] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:11,620] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:11] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:28,744] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\templating.py', reloading
+[2025-04-04 13:54:28,748] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:28] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 -
+[2025-04-04 13:54:28,771] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:28] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:28,778] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:28] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:29,480] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:54:31,053] WARNING -  * Debugger is active!
+[2025-04-04 13:54:31,060] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:54:31,151] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:31] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:31,163] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:31] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:33,124] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:33] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 -
+[2025-04-04 13:54:33,147] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:33] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:33,156] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:33] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:33,285] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:33] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:35,995] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:35] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 -
+[2025-04-04 13:54:36,022] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:36] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:36,028] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:36] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:54:36,159] INFO - 127.0.0.1 - - [04/Apr/2025 13:54:36] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:58:58,579] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 13:58:58,581] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 13:58:59,320] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:59:01,240] WARNING -  * Debugger is active!
+[2025-04-04 13:59:01,245] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:59:10,842] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 13:59:10,843] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 13:59:11,842] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 13:59:13,743] WARNING -  * Debugger is active!
+[2025-04-04 13:59:13,751] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 13:59:27,449] INFO - 127.0.0.1 - - [04/Apr/2025 13:59:27] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 -
+[2025-04-04 13:59:27,645] INFO - 127.0.0.1 - - [04/Apr/2025 13:59:27] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:59:27,649] INFO - 127.0.0.1 - - [04/Apr/2025 13:59:27] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:59:27,700] INFO - 127.0.0.1 - - [04/Apr/2025 13:59:27] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 13:59:28,881] INFO - 127.0.0.1 - - [04/Apr/2025 13:59:28] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 -
+[2025-04-04 13:59:28,939] INFO - 127.0.0.1 - - [04/Apr/2025 13:59:28] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 13:59:28,942] INFO - 127.0.0.1 - - [04/Apr/2025 13:59:28] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 13:59:29,045] INFO - 127.0.0.1 - - [04/Apr/2025 13:59:29] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 14:04:46,087] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:04:46,089] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:04:47,044] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:04:48,754] WARNING -  * Debugger is active!
+[2025-04-04 14:04:48,759] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:05:19,909] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2025-03-28 19:20:11,990] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 19:20:12,009] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 19:20:13,851] WARNING -  * Debugger is active!
-[2025-03-28 19:20:13,864] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 19:20:29,951] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:29] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 19:20:30,457] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:30] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 19:20:30,513] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 19:20:30,516] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:30] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 19:20:34,107] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:34] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 19:20:34,128] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 19:20:34,137] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:34] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 19:20:34,137] INFO - 127.0.0.1 - - [28/Mar/2025 19:20:34] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 19:20:55,547] INFO - Found 1 FAQ match(es).
-[2025-03-28 19:20:55,549] INFO - No order ID found in question.
-[2025-03-28 19:20:55,750] INFO - Product found by name match.
-[2025-03-28 19:23:25,854] INFO - LLM response successfully received.
-[2025-03-28 19:23:26,195] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 19:23:26,198] INFO - Saved conversation for user 'web-user' via API.
-[2025-03-28 19:23:26,294] INFO - 127.0.0.1 - - [28/Mar/2025 19:23:26] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 19:23:26,527] INFO - 127.0.0.1 - - [28/Mar/2025 19:23:26] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 19:23:27,461] INFO - 127.0.0.1 - - [28/Mar/2025 19:23:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 19:23:27,462] INFO - 127.0.0.1 - - [28/Mar/2025 19:23:27] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 19:23:27,464] INFO - 127.0.0.1 - - [28/Mar/2025 19:23:27] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:01:32,456] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2025-04-04 14:05:19,910] INFO - [33mPress CTRL+C to quit[0m
+[2025-04-04 14:05:19,927] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:05:22,285] WARNING -  * Debugger is active!
+[2025-04-04 14:05:22,298] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:05:23,602] INFO - 127.0.0.1 - - [04/Apr/2025 14:05:23] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 14:05:23,746] INFO - 127.0.0.1 - - [04/Apr/2025 14:05:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:05:34,244] INFO - 127.0.0.1 - - [04/Apr/2025 14:05:34] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+[2025-04-04 14:05:34,400] INFO - 127.0.0.1 - - [04/Apr/2025 14:05:34] "GET /dashboard HTTP/1.1" 200 -
+[2025-04-04 14:05:34,433] INFO - 127.0.0.1 - - [04/Apr/2025 14:05:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:21:40,662] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:21:40,664] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:21:41,639] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:21:45,972] WARNING -  * Debugger is active!
+[2025-04-04 14:21:45,979] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:23:37,156] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 14:23:37,157] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\auth.py', reloading
+[2025-04-04 14:23:37,592] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:23:39,956] WARNING -  * Debugger is active!
+[2025-04-04 14:23:39,964] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:24:02,802] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:02] "[31m[1mGET /dashboard HTTP/1.1[0m" 401 -
+[2025-04-04 14:24:10,000] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:10] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 14:24:10,149] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:24:18,336] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:18] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+[2025-04-04 14:24:18,537] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:18] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:24:18,570] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:24:24,508] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:24] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
+[2025-04-04 14:24:24,518] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:24] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:24:24,536] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:24] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:24:24,565] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:24:30,338] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:30] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
+[2025-04-04 14:24:30,346] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:30] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:24:30,361] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:30] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:24:30,386] INFO - 127.0.0.1 - - [04/Apr/2025 14:24:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:27:28,443] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\chat_agent.py', reloading
+[2025-04-04 14:27:28,860] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:27:31,628] WARNING -  * Debugger is active!
+[2025-04-04 14:27:31,640] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:31:06,230] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:31:06,232] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:31:06,815] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:31:09,395] WARNING -  * Debugger is active!
+[2025-04-04 14:31:09,405] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:31:30,395] INFO - 127.0.0.1 - - [04/Apr/2025 14:31:30] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:31:30,530] INFO - 127.0.0.1 - - [04/Apr/2025 14:31:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:31:41,022] INFO - 127.0.0.1 - - [04/Apr/2025 14:31:41] "GET /auth/login HTTP/1.1" 200 -
+[2025-04-04 14:31:41,047] INFO - 127.0.0.1 - - [04/Apr/2025 14:31:41] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:31:49,332] INFO - 127.0.0.1 - - [04/Apr/2025 14:31:49] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+[2025-04-04 14:31:49,339] INFO - 127.0.0.1 - - [04/Apr/2025 14:31:49] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:31:49,377] INFO - 127.0.0.1 - - [04/Apr/2025 14:31:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:31:52,643] INFO - 127.0.0.1 - - [04/Apr/2025 14:31:52] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
+[2025-04-04 14:31:52,649] INFO - 127.0.0.1 - - [04/Apr/2025 14:31:52] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:31:52,664] INFO - 127.0.0.1 - - [04/Apr/2025 14:31:52] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:31:52,686] INFO - 127.0.0.1 - - [04/Apr/2025 14:31:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:36:26,069] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:36:26,070] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:36:26,072] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:36:26,593] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:36:28,368] WARNING -  * Debugger is active!
+[2025-04-04 14:36:28,373] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:36:30,274] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:36:30,275] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:36:31,026] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:36:32,690] WARNING -  * Debugger is active!
+[2025-04-04 14:36:32,696] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:37:08,636] INFO - 127.0.0.1 - - [04/Apr/2025 14:37:08] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:37:08,785] INFO - 127.0.0.1 - - [04/Apr/2025 14:37:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:37:12,100] INFO - 127.0.0.1 - - [04/Apr/2025 14:37:12] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
+[2025-04-04 14:37:12,106] INFO - 127.0.0.1 - - [04/Apr/2025 14:37:12] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:37:12,120] INFO - 127.0.0.1 - - [04/Apr/2025 14:37:12] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:37:12,143] INFO - 127.0.0.1 - - [04/Apr/2025 14:37:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:37:16,034] INFO - 127.0.0.1 - - [04/Apr/2025 14:37:16] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:37:16,058] INFO - 127.0.0.1 - - [04/Apr/2025 14:37:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:37:23,869] INFO - 127.0.0.1 - - [04/Apr/2025 14:37:23] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
+[2025-04-04 14:37:23,874] INFO - 127.0.0.1 - - [04/Apr/2025 14:37:23] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:37:23,886] INFO - 127.0.0.1 - - [04/Apr/2025 14:37:23] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:37:23,909] INFO - 127.0.0.1 - - [04/Apr/2025 14:37:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:39:48,297] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:39:48,298] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
+[2025-04-04 14:39:49,599] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:39:51,769] WARNING -  * Debugger is active!
+[2025-04-04 14:39:51,775] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:40:23,871] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:23] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
+[2025-04-04 14:40:23,926] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:23] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:40:23,941] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:23] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:40:24,058] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:40:30,938] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:30] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
+[2025-04-04 14:40:30,946] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:30] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:40:30,963] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:30] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:40:30,991] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:40:39,075] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\__init__.py', reloading
+[2025-04-04 14:40:39,191] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py', reloading
+[2025-04-04 14:40:39,192] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask_login\\utils.py', reloading
+[2025-04-04 14:40:39,193] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+[2025-04-04 14:40:39,194] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\server.py', reloading
+[2025-04-04 14:40:40,430] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:40:42,071] WARNING -  * Debugger is active!
+[2025-04-04 14:40:42,077] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:40:44,514] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:44] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:40:44,633] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:40:57,652] ERROR - FAQ search failed: connection to server at "localhost" (::1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-04-04 14:40:57,742] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:57] "[35m[1mPOST /chat-ui HTTP/1.1[0m" 500 -
+[2025-04-04 14:40:57,822] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:57] "[36mGET /chat-ui?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:40:57,834] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:57] "[36mGET /chat-ui?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-04 14:40:57,978] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:57] "[36mGET /chat-ui?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 14:40:58,097] INFO - 127.0.0.1 - - [04/Apr/2025 14:40:58] "[36mGET /chat-ui?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-04 14:44:13,773] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\db\\postgres.py', reloading
+[2025-04-04 14:44:25,971] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2025-03-28 22:01:32,458] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 22:01:32,497] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 22:01:35,641] WARNING -  * Debugger is active!
-[2025-03-28 22:01:35,652] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 22:01:48,220] INFO - 127.0.0.1 - - [28/Mar/2025 22:01:48] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:01:48,494] INFO - 127.0.0.1 - - [28/Mar/2025 22:01:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 22:01:49,734] INFO - 127.0.0.1 - - [28/Mar/2025 22:01:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-[2025-03-28 22:02:24,520] INFO - Found 1 FAQ match(es).
-[2025-03-28 22:02:24,522] INFO - No order ID found in question.
-[2025-03-28 22:02:24,629] INFO - Product found by name match.
-[2025-03-28 22:03:48,067] INFO - LLM response successfully received.
-[2025-03-28 22:03:48,607] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 22:03:48,609] INFO - Saved conversation for user 'web-user' via API.
-[2025-03-28 22:03:48,701] INFO - 127.0.0.1 - - [28/Mar/2025 22:03:48] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 22:03:49,025] INFO - 127.0.0.1 - - [28/Mar/2025 22:03:49] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:03:50,248] INFO - 127.0.0.1 - - [28/Mar/2025 22:03:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 22:03:50,320] INFO - 127.0.0.1 - - [28/Mar/2025 22:03:50] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 22:03:50,324] INFO - 127.0.0.1 - - [28/Mar/2025 22:03:50] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:09:54,756] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+[2025-04-04 14:44:25,971] INFO - [33mPress CTRL+C to quit[0m
+[2025-04-04 14:44:25,986] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:44:27,623] WARNING -  * Debugger is active!
+[2025-04-04 14:44:27,677] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:44:27,872] INFO - 127.0.0.1 - - [04/Apr/2025 14:44:27] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:44:27,993] INFO - 127.0.0.1 - - [04/Apr/2025 14:44:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:44:31,486] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+[2025-04-04 14:44:31,503] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socketserver.py', reloading
+[2025-04-04 14:44:32,262] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:44:33,971] WARNING -  * Debugger is active!
+[2025-04-04 14:44:33,976] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:48:39,948] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\chat_agent.py', reloading
+[2025-04-04 14:48:39,979] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\services\\chat_agent.py', reloading
+[2025-04-04 14:48:40,821] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:48:43,275] WARNING -  * Debugger is active!
+[2025-04-04 14:48:43,283] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:48:47,879] INFO - 127.0.0.1 - - [04/Apr/2025 14:48:47] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:48:47,996] INFO - 127.0.0.1 - - [04/Apr/2025 14:48:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:48:55,997] ERROR - Failed to retrieve all products: connection to server at "localhost" (::1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-04-04 14:48:56,000] ERROR - Error processing question: cannot access local variable 'cur' where it is not associated with a value
+[2025-04-04 14:48:56,002] INFO - Saved conversation for user 'Kana' to MongoDB.
+[2025-04-04 14:48:56,015] INFO - 127.0.0.1 - - [04/Apr/2025 14:48:56] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-04-04 14:48:56,023] INFO - 127.0.0.1 - - [04/Apr/2025 14:48:56] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:48:56,045] INFO - 127.0.0.1 - - [04/Apr/2025 14:48:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:48:56,101] INFO - 127.0.0.1 - - [04/Apr/2025 14:48:56] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-04-04 14:48:56,103] INFO - 127.0.0.1 - - [04/Apr/2025 14:48:56] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-04-04 14:50:37,196] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\llm\\prompt_builder.py', reloading
+[2025-04-04 14:50:37,930] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:50:39,757] WARNING -  * Debugger is active!
+[2025-04-04 14:50:39,764] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:50:43,337] INFO - 127.0.0.1 - - [04/Apr/2025 14:50:43] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:50:43,528] INFO - 127.0.0.1 - - [04/Apr/2025 14:50:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:50:43,530] INFO - 127.0.0.1 - - [04/Apr/2025 14:50:43] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-04-04 14:50:43,536] INFO - 127.0.0.1 - - [04/Apr/2025 14:50:43] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-04-04 14:50:53,967] ERROR - Failed to retrieve all products: connection to server at "localhost" (::1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-04-04 14:50:53,969] ERROR - Error processing question: cannot access local variable 'cur' where it is not associated with a value
+[2025-04-04 14:50:53,971] INFO - Saved conversation for user 'Kana' to MongoDB.
+[2025-04-04 14:50:53,987] INFO - 127.0.0.1 - - [04/Apr/2025 14:50:53] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-04-04 14:50:53,995] INFO - 127.0.0.1 - - [04/Apr/2025 14:50:53] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:50:54,015] INFO - 127.0.0.1 - - [04/Apr/2025 14:50:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:50:54,024] INFO - 127.0.0.1 - - [04/Apr/2025 14:50:54] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-04-04 14:50:54,026] INFO - 127.0.0.1 - - [04/Apr/2025 14:50:54] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-04-04 14:53:56,255] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\db\\populate_data.py', reloading
+[2025-04-04 14:53:56,271] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\main.py', reloading
+[2025-04-04 14:53:56,332] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\db\\postgres.py', reloading
+[2025-04-04 14:53:56,335] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\db\\postgres.py', reloading
+[2025-04-04 14:53:57,645] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:53:59,676] WARNING -  * Debugger is active!
+[2025-04-04 14:53:59,683] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:54:13,536] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on http://127.0.0.1:5000
-[2025-03-28 22:09:54,760] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 22:09:54,785] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 22:09:57,040] WARNING -  * Debugger is active!
-[2025-03-28 22:09:57,063] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 22:10:04,290] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\__init__.py', reloading
-[2025-03-28 22:10:04,497] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py', reloading
-[2025-03-28 22:10:04,500] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
-[2025-03-28 22:10:04,501] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
-[2025-03-28 22:10:04,503] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\server.py', reloading
-[2025-03-28 22:10:04,505] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socketserver.py', reloading
-[2025-03-28 22:10:04,664] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 22:10:04,692] INFO - 127.0.0.1 - - [28/Mar/2025 22:10:04] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 22:10:04,736] INFO - 127.0.0.1 - - [28/Mar/2025 22:10:04] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:10:05,183] INFO - 127.0.0.1 - - [28/Mar/2025 22:10:05] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 22:10:05,184] INFO - 127.0.0.1 - - [28/Mar/2025 22:10:05] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:10:05,194] INFO - 127.0.0.1 - - [28/Mar/2025 22:10:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 22:10:05,670] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 22:10:07,792] WARNING -  * Debugger is active!
-[2025-03-28 22:10:07,801] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 22:15:42,388] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2025-03-28 22:15:42,391] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 22:15:42,415] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 22:15:44,157] WARNING -  * Debugger is active!
-[2025-03-28 22:15:44,164] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 22:15:55,085] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 22:15:55,101] INFO - 127.0.0.1 - - [28/Mar/2025 22:15:55] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 22:15:55,221] INFO - 127.0.0.1 - - [28/Mar/2025 22:15:55] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:15:55,524] INFO - 127.0.0.1 - - [28/Mar/2025 22:15:55] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:15:55,527] INFO - 127.0.0.1 - - [28/Mar/2025 22:15:55] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 22:15:55,529] INFO - 127.0.0.1 - - [28/Mar/2025 22:15:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 22:21:17,526] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2025-03-28 22:21:17,536] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 22:21:17,558] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 22:21:19,273] WARNING -  * Debugger is active!
-[2025-03-28 22:21:19,281] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 22:22:13,126] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:13] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:22:13,411] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 22:22:13,412] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:13] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:22:13,433] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:13] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 22:22:16,805] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:16] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:22:16,837] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 22:22:16,849] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:16] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:22:16,850] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:16] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 22:22:20,603] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 22:22:20,621] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:20] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 22:22:20,629] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:20] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:22:20,663] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 22:22:20,667] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:20] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:22:20,670] INFO - 127.0.0.1 - - [28/Mar/2025 22:22:20] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 22:27:30,087] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2025-03-28 22:27:30,106] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 22:27:30,124] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 22:27:32,232] WARNING -  * Debugger is active!
-[2025-03-28 22:27:32,241] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 22:27:32,817] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:32] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:27:33,052] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:33] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:27:33,063] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 22:27:33,064] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:33] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 22:27:46,008] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 22:27:46,023] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:46] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 22:27:46,033] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:46] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:27:46,059] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 22:27:46,067] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:46] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:27:46,067] INFO - 127.0.0.1 - - [28/Mar/2025 22:27:46] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 22:36:02,270] INFO - 127.0.0.1 - - [28/Mar/2025 22:36:02] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:36:02,328] INFO - 127.0.0.1 - - [28/Mar/2025 22:36:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 22:36:02,332] INFO - 127.0.0.1 - - [28/Mar/2025 22:36:02] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:36:02,337] INFO - 127.0.0.1 - - [28/Mar/2025 22:36:02] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 22:36:27,803] INFO - No order ID found in question.
-[2025-03-28 22:36:27,858] INFO - Product found by name match.
-[2025-03-28 22:36:29,126] INFO - No order ID found in question.
-[2025-03-28 22:36:29,165] INFO - Product found by name match.
-[2025-03-28 22:39:26,513] INFO - LLM response successfully received.
-[2025-03-28 22:39:27,093] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 22:39:27,316] INFO - 127.0.0.1 - - [28/Mar/2025 22:39:27] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 22:39:33,616] INFO - LLM response successfully received.
-[2025-03-28 22:39:33,623] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 22:39:33,664] INFO - 127.0.0.1 - - [28/Mar/2025 22:39:33] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 22:39:33,827] INFO - 127.0.0.1 - - [28/Mar/2025 22:39:33] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:39:34,264] INFO - 127.0.0.1 - - [28/Mar/2025 22:39:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 22:39:34,266] INFO - 127.0.0.1 - - [28/Mar/2025 22:39:34] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 22:39:34,268] INFO - 127.0.0.1 - - [28/Mar/2025 22:39:34] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:46:33,488] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2025-03-28 22:46:33,500] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 22:46:33,540] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 22:46:36,070] WARNING -  * Debugger is active!
-[2025-03-28 22:46:36,092] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 22:46:41,239] INFO - 127.0.0.1 - - [28/Mar/2025 22:46:41] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:46:42,029] INFO - 127.0.0.1 - - [28/Mar/2025 22:46:42] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:46:42,050] INFO - 127.0.0.1 - - [28/Mar/2025 22:46:42] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 22:46:42,052] INFO - 127.0.0.1 - - [28/Mar/2025 22:46:42] "GET /static/style.css HTTP/1.1" 200 -
-[2025-03-28 22:47:30,177] INFO - No order ID found in question.
-[2025-03-28 22:47:30,221] INFO - Product found by name match.
-[2025-03-28 22:47:31,528] INFO - No order ID found in question.
-[2025-03-28 22:47:31,569] INFO - Product found by name match.
-[2025-03-28 22:47:44,354] INFO - No order ID found in question.
-[2025-03-28 22:47:46,675] INFO - Product found by name match.
-[2025-03-28 22:48:18,356] INFO - No order ID found in question.
-[2025-03-28 22:48:19,225] INFO - Product found by name match.
-[2025-03-28 22:53:03,134] INFO - LLM response successfully received.
-[2025-03-28 22:53:03,762] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 22:53:04,586] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:04] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 22:53:08,627] INFO - LLM response successfully received.
-[2025-03-28 22:53:08,641] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 22:53:08,712] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:08] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 22:53:25,485] INFO - LLM response successfully received.
-[2025-03-28 22:53:25,502] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 22:53:25,671] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:25] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 22:53:26,487] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:26] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 22:53:28,039] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:28] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 22:53:28,066] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:28] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 22:53:28,328] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 22:53:34,711] INFO - LLM response successfully received.
-[2025-03-28 22:53:34,717] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 22:53:34,747] INFO - 127.0.0.1 - - [28/Mar/2025 22:53:34] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 23:03:30,452] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2025-03-28 23:03:30,547] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 23:03:30,578] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 23:03:33,799] WARNING -  * Debugger is active!
-[2025-03-28 23:03:33,832] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 23:03:38,696] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:38] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:03:39,055] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:39] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:03:39,059] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:39] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:03:39,072] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:39] "GET /static/style.css HTTP/1.1" 200 -
-[2025-03-28 23:03:45,798] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:45] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:03:45,820] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:03:45,824] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:45] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:03:45,829] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:45] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:03:47,281] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:47] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:03:47,329] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:03:47,343] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:47] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:03:47,345] INFO - 127.0.0.1 - - [28/Mar/2025 23:03:47] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:11,265] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2025-03-28 23:11:11,266] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 23:11:11,284] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 23:11:13,522] WARNING -  * Debugger is active!
-[2025-03-28 23:11:13,532] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 23:11:17,664] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:17] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:11:17,928] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:17,944] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:17] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:17,946] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:17] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:22,386] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:22] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:11:22,409] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:22,420] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:22] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:22,421] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:22] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:23,744] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:23] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:11:23,766] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:23,776] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:23] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:23,778] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:23] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:48,346] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:48] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:11:48,381] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:48,395] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:48] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:48,395] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:48] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:49,571] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:49] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:11:49,600] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:49,617] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:49] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:49,619] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:49] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:54,773] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:54] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:11:54,800] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:54,817] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:54] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:11:54,818] INFO - 127.0.0.1 - - [28/Mar/2025 23:11:54] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:14:59,824] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
-[2025-03-28 23:14:59,826] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\app.py', reloading
-[2025-03-28 23:15:00,420] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 23:15:03,150] WARNING -  * Debugger is active!
-[2025-03-28 23:15:03,157] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 23:15:56,776] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:56] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:15:57,008] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:57] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:15:57,014] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:15:57,015] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:57] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:15:58,067] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:58] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:15:58,090] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:15:58,094] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:58] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:15:58,094] INFO - 127.0.0.1 - - [28/Mar/2025 23:15:58] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:17:04,629] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:04] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:17:04,678] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:17:04,684] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:04] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:17:04,687] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:04] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:17:48,006] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:48] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:17:48,033] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:17:48,044] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:48] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:17:48,045] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:48] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:17:52,155] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:52] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:17:52,192] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:17:52,195] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:52] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:17:52,199] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:52] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:17:59,801] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:59] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:17:59,826] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:17:59,842] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:59] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:17:59,845] INFO - 127.0.0.1 - - [28/Mar/2025 23:17:59] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:24:04,410] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:04] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:24:04,433] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:24:04,438] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:04] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:24:04,439] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:04] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:24:04,658] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-[2025-03-28 23:24:07,401] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:07] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
-[2025-03-28 23:24:07,472] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:07] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:24:07,486] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:07] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:24:07,505] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:07] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:24:11,268] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:11] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
-[2025-03-28 23:24:11,274] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:11] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:24:11,286] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:11] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:24:11,304] INFO - 127.0.0.1 - - [28/Mar/2025 23:24:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:24:23,851] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\logging\\__init__.py', reloading
-[2025-03-28 23:24:23,886] INFO - No order ID found in question.
-[2025-03-28 23:24:23,887] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\encodings\\cp1252.py', reloading
-[2025-03-28 23:24:23,890] INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\db\\postgres.py', reloading
-[2025-03-28 23:24:23,892] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
-[2025-03-28 23:24:23,894] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
-[2025-03-28 23:24:23,896] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\werkzeug\\serving.py', reloading
-[2025-03-28 23:24:23,898] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\http\\server.py', reloading
-[2025-03-28 23:24:23,899] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\socketserver.py', reloading
-[2025-03-28 23:24:23,936] INFO - Product found by name match.
-[2025-03-28 23:24:24,221] INFO - No order ID found in question.
-[2025-03-28 23:24:24,252] INFO - Product found by name match.
-[2025-03-28 23:24:25,312] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 23:24:28,511] WARNING -  * Debugger is active!
-[2025-03-28 23:24:28,523] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 23:24:30,065] INFO - No order ID found in question.
-[2025-03-28 23:24:30,108] INFO - Product found by name match.
-[2025-03-28 23:26:56,773] INFO - LLM response successfully received.
-[2025-03-28 23:26:57,052] INFO - Saved conversation for user 'web-user' to MongoDB.
-[2025-03-28 23:26:57,231] INFO - 127.0.0.1 - - [28/Mar/2025 23:26:57] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
-[2025-03-28 23:26:57,789] INFO - 127.0.0.1 - - [28/Mar/2025 23:26:57] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:26:59,147] INFO - 127.0.0.1 - - [28/Mar/2025 23:26:59] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:26:59,149] INFO - 127.0.0.1 - - [28/Mar/2025 23:26:59] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:26:59,200] INFO - 127.0.0.1 - - [28/Mar/2025 23:26:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:32:30,579] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
- * Running on http://127.0.0.1:5000
-[2025-03-28 23:32:30,590] INFO - [33mPress CTRL+C to quit[0m
-[2025-03-28 23:32:30,635] INFO -  * Restarting with watchdog (windowsapi)
-[2025-03-28 23:32:33,824] WARNING -  * Debugger is active!
-[2025-03-28 23:32:33,871] INFO -  * Debugger PIN: 989-593-848
-[2025-03-28 23:33:01,520] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:01] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:33:01,976] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:01] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
-[2025-03-28 23:33:01,980] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:33:01,983] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:01] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
-[2025-03-28 23:33:05,434] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:05] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
-[2025-03-28 23:33:05,463] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:05] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:33:05,520] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:05] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:33:05,615] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
-[2025-03-28 23:33:10,170] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:10] "[32mPOST /clear-chat HTTP/1.1[0m" 302 -
-[2025-03-28 23:33:10,215] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:10] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:33:10,241] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:10] "GET /chat-ui HTTP/1.1" 200 -
-[2025-03-28 23:33:10,284] INFO - 127.0.0.1 - - [28/Mar/2025 23:33:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:54:13,536] INFO - [33mPress CTRL+C to quit[0m
+[2025-04-04 14:54:13,548] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:54:15,129] WARNING -  * Debugger is active!
+[2025-04-04 14:54:15,136] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:54:15,288] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:15] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:54:15,534] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:54:15,554] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:15] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-04-04 14:54:15,564] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:15] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-04-04 14:54:22,162] INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+[2025-04-04 14:54:22,678] INFO -  * Restarting with watchdog (windowsapi)
+[2025-04-04 14:54:24,211] WARNING -  * Debugger is active!
+[2025-04-04 14:54:24,219] INFO -  * Debugger PIN: 989-593-848
+[2025-04-04 14:54:35,776] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:35] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:54:35,950] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:54:35,971] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:35] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-04-04 14:54:35,973] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:35] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-04-04 14:54:44,379] ERROR - Failed to retrieve all products: connection to server at "localhost" (::1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2025-04-04 14:54:44,382] INFO - No products found in stock.
+[2025-04-04 14:54:44,383] INFO - Saved conversation for user 'Kana' to MongoDB.
+[2025-04-04 14:54:44,400] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:44] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-04-04 14:54:44,410] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:44] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:54:44,436] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:54:44,447] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:44] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-04-04 14:54:44,449] INFO - 127.0.0.1 - - [04/Apr/2025 14:54:44] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-04-04 14:58:30,300] INFO - Found products: [(303, 'Gaming Headset', 'Comfortable gaming headset with surround sound.'), (1001, 'Wireless Mouse', 'Wireless Mouse - High quality and reliable.'), (1002, 'Mechanical Keyboard', 'Mechanical Keyboard - High quality and reliable.'), (1003, 'Laptop Stand', 'Laptop Stand - High quality and reliable.'), (1004, 'USB-C Charger', 'USB-C Charger - High quality and reliable.'), (1005, 'Monitor Arm', 'Monitor Arm - High quality and reliable.'), (1006, 'Webcam', 'Webcam - High quality and reliable.'), (1007, 'Noise-Cancelling Headphones', 'Noise-Cancelling Headphones - High quality and reliable.'), (1008, 'Bluetooth Speaker', 'Bluetooth Speaker - High quality and reliable.'), (1009, 'Portable SSD', 'Portable SSD - High quality and reliable.'), (1010, 'Ergonomic Chair', 'Ergonomic Chair - High quality and reliable.'), (2001, '4K Monitor', 'Ultra HD 4K display with vibrant colors and slim bezel.'), (2002, 'Bluetooth Mechanical Keyboard', 'Wireless mechanical keyboard with RGB lighting and hot-swappable switches.'), (2003, 'Vertical Ergonomic Mouse', 'Ergonomic vertical mouse to reduce wrist strain.'), (2004, 'Standing Desk Converter', 'Height-adjustable desk converter for standing work setup.'), (2005, 'Wireless Charging Pad', 'Qi-compatible wireless charger for phones and earbuds.'), (2006, 'Smart Plug', 'WiFi-enabled smart plug with timer and voice assistant support.'), (2007, 'Webcam Cover', 'Privacy shutter for laptops and external webcams.'), (2008, 'Laptop Cooling Pad', 'Silent cooling pad with dual fans and adjustable angle.'), (2009, 'USB-C Hub', '7-in-1 USB-C hub with HDMI, SD card reader, and multiple ports.'), (2010, 'Noise-Isolating Earbuds', 'In-ear earbuds with passive noise isolation and deep bass.'), (2011, 'Wireless Presenter Remote', 'Presentation remote with laser pointer and slide control.'), (2012, 'LED Light Strip', 'Smart RGB LED strip light with app and voice control.'), (2013, 'Docking Station', 'Universal laptop docking station with dual monitor support.'), (2014, 'HDMI Capture Card', '1080p video capture card for streaming and recording.'), (2015, 'Portable Monitor', 'Slim portable 15.6" monitor with USB-C connectivity.')]
+[2025-04-04 14:58:30,346] INFO - Saved conversation for user 'Kana' to MongoDB.
+[2025-04-04 14:58:30,396] INFO - 127.0.0.1 - - [04/Apr/2025 14:58:30] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-04-04 14:58:30,436] INFO - 127.0.0.1 - - [04/Apr/2025 14:58:30] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 14:58:30,546] INFO - 127.0.0.1 - - [04/Apr/2025 14:58:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 14:58:30,558] INFO - 127.0.0.1 - - [04/Apr/2025 14:58:30] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-04-04 14:58:30,564] INFO - 127.0.0.1 - - [04/Apr/2025 14:58:30] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+[2025-04-04 14:58:55,304] INFO - No order ID found in question.
+[2025-04-04 14:58:55,408] INFO - Product found by name match.
+[2025-04-04 15:02:38,583] INFO - LLM response successfully received.
+[2025-04-04 15:02:39,227] INFO - Saved conversation for user 'Kana' to MongoDB.
+[2025-04-04 15:02:39,584] INFO - 127.0.0.1 - - [04/Apr/2025 15:02:39] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+[2025-04-04 15:02:39,925] INFO - 127.0.0.1 - - [04/Apr/2025 15:02:39] "GET /chat-ui HTTP/1.1" 200 -
+[2025-04-04 15:02:42,344] INFO - 127.0.0.1 - - [04/Apr/2025 15:02:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-04 15:02:42,347] INFO - 127.0.0.1 - - [04/Apr/2025 15:02:42] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+[2025-04-04 15:02:42,356] INFO - 127.0.0.1 - - [04/Apr/2025 15:02:42] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -

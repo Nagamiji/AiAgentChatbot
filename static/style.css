@@ -132,3 +132,17 @@ body {
 .message.ai table th {
     background-color: #e9ecef;
 }
+
+
+
+
+
+/* Example CSS to style the flash messages */
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+

@@ -1,0 +1,98 @@
+2025-04-04 14:48:43,275 - WARNING -  * Debugger is active!
+2025-04-04 14:48:43,283 - INFO -  * Debugger PIN: 989-593-848
+2025-04-04 14:48:47,879 - INFO - 127.0.0.1 - - [04/Apr/2025 14:48:47] "GET /chat-ui HTTP/1.1" 200 -
+2025-04-04 14:48:47,996 - INFO - 127.0.0.1 - - [04/Apr/2025 14:48:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-04 14:48:51,892 - INFO - 🔍 Detected product stock inquiry. Fetching product list...
+2025-04-04 14:48:55,997 - ERROR - Failed to retrieve all products: connection to server at "localhost" (::1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-04-04 14:48:56,000 - ERROR - Error processing question: cannot access local variable 'cur' where it is not associated with a value
+2025-04-04 14:48:56,002 - INFO - Saved conversation for user 'Kana' to MongoDB.
+2025-04-04 14:48:56,003 - INFO - 📩 Saved conversation for API user 'Kana'.
+2025-04-04 14:48:56,015 - INFO - 127.0.0.1 - - [04/Apr/2025 14:48:56] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+2025-04-04 14:48:56,023 - INFO - 127.0.0.1 - - [04/Apr/2025 14:48:56] "GET /chat-ui HTTP/1.1" 200 -
+2025-04-04 14:48:56,045 - INFO - 127.0.0.1 - - [04/Apr/2025 14:48:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-04 14:48:56,101 - INFO - 127.0.0.1 - - [04/Apr/2025 14:48:56] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+2025-04-04 14:48:56,103 - INFO - 127.0.0.1 - - [04/Apr/2025 14:48:56] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+2025-04-04 14:50:37,196 - INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\llm\\prompt_builder.py', reloading
+2025-04-04 14:50:39,757 - WARNING -  * Debugger is active!
+2025-04-04 14:50:39,764 - INFO -  * Debugger PIN: 989-593-848
+2025-04-04 14:50:43,337 - INFO - 127.0.0.1 - - [04/Apr/2025 14:50:43] "GET /chat-ui HTTP/1.1" 200 -
+2025-04-04 14:50:43,528 - INFO - 127.0.0.1 - - [04/Apr/2025 14:50:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-04 14:50:43,530 - INFO - 127.0.0.1 - - [04/Apr/2025 14:50:43] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+2025-04-04 14:50:43,536 - INFO - 127.0.0.1 - - [04/Apr/2025 14:50:43] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+2025-04-04 14:50:49,833 - INFO - 🔍 Detected product stock inquiry. Fetching product list...
+2025-04-04 14:50:53,967 - ERROR - Failed to retrieve all products: connection to server at "localhost" (::1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-04-04 14:50:53,969 - ERROR - Error processing question: cannot access local variable 'cur' where it is not associated with a value
+2025-04-04 14:50:53,971 - INFO - Saved conversation for user 'Kana' to MongoDB.
+2025-04-04 14:50:53,971 - INFO - 📩 Saved conversation for API user 'Kana'.
+2025-04-04 14:50:53,987 - INFO - 127.0.0.1 - - [04/Apr/2025 14:50:53] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+2025-04-04 14:50:53,995 - INFO - 127.0.0.1 - - [04/Apr/2025 14:50:53] "GET /chat-ui HTTP/1.1" 200 -
+2025-04-04 14:50:54,015 - INFO - 127.0.0.1 - - [04/Apr/2025 14:50:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-04 14:50:54,024 - INFO - 127.0.0.1 - - [04/Apr/2025 14:50:54] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+2025-04-04 14:50:54,026 - INFO - 127.0.0.1 - - [04/Apr/2025 14:50:54] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+2025-04-04 14:53:56,255 - INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\db\\populate_data.py', reloading
+2025-04-04 14:53:56,271 - INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\main.py', reloading
+2025-04-04 14:53:56,332 - INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\db\\postgres.py', reloading
+2025-04-04 14:53:56,335 - INFO -  * Detected change in 'D:\\Year 4\\Data Engineer Projects\\ollama\\db\\postgres.py', reloading
+2025-04-04 14:53:59,676 - WARNING -  * Debugger is active!
+2025-04-04 14:53:59,683 - INFO -  * Debugger PIN: 989-593-848
+2025-04-04 14:54:13,536 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 14:54:13,536 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 14:54:13,548 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 14:54:15,129 - WARNING -  * Debugger is active!
+2025-04-04 14:54:15,136 - INFO -  * Debugger PIN: 989-593-848
+2025-04-04 14:54:15,288 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:15] "GET /chat-ui HTTP/1.1" 200 -
+2025-04-04 14:54:15,534 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-04 14:54:15,554 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:15] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+2025-04-04 14:54:15,564 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:15] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+2025-04-04 14:54:22,153 - INFO - 🔍 Detected product stock inquiry. Fetching product list...
+2025-04-04 14:54:22,162 - INFO -  * Detected change in 'C:\\Users\\First_Solutions\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+2025-04-04 14:54:22,678 - INFO -  * Restarting with watchdog (windowsapi)
+2025-04-04 14:54:24,211 - WARNING -  * Debugger is active!
+2025-04-04 14:54:24,219 - INFO -  * Debugger PIN: 989-593-848
+2025-04-04 14:54:35,776 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:35] "GET /chat-ui HTTP/1.1" 200 -
+2025-04-04 14:54:35,950 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-04 14:54:35,971 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:35] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+2025-04-04 14:54:35,973 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:35] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+2025-04-04 14:54:40,255 - INFO - 🔍 Detected product stock inquiry. Fetching product list...
+2025-04-04 14:54:44,379 - ERROR - Failed to retrieve all products: connection to server at "localhost" (::1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 5444 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+
+2025-04-04 14:54:44,382 - INFO - No products found in stock.
+2025-04-04 14:54:44,383 - INFO - Saved conversation for user 'Kana' to MongoDB.
+2025-04-04 14:54:44,383 - INFO - 📩 Saved conversation for API user 'Kana'.
+2025-04-04 14:54:44,400 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:44] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+2025-04-04 14:54:44,410 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:44] "GET /chat-ui HTTP/1.1" 200 -
+2025-04-04 14:54:44,436 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-04 14:54:44,447 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:44] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+2025-04-04 14:54:44,449 - INFO - 127.0.0.1 - - [04/Apr/2025 14:54:44] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+2025-04-04 14:58:29,722 - INFO - 🔍 Detected product stock inquiry. Fetching product list...
+2025-04-04 14:58:30,300 - INFO - Found products: [(303, 'Gaming Headset', 'Comfortable gaming headset with surround sound.'), (1001, 'Wireless Mouse', 'Wireless Mouse - High quality and reliable.'), (1002, 'Mechanical Keyboard', 'Mechanical Keyboard - High quality and reliable.'), (1003, 'Laptop Stand', 'Laptop Stand - High quality and reliable.'), (1004, 'USB-C Charger', 'USB-C Charger - High quality and reliable.'), (1005, 'Monitor Arm', 'Monitor Arm - High quality and reliable.'), (1006, 'Webcam', 'Webcam - High quality and reliable.'), (1007, 'Noise-Cancelling Headphones', 'Noise-Cancelling Headphones - High quality and reliable.'), (1008, 'Bluetooth Speaker', 'Bluetooth Speaker - High quality and reliable.'), (1009, 'Portable SSD', 'Portable SSD - High quality and reliable.'), (1010, 'Ergonomic Chair', 'Ergonomic Chair - High quality and reliable.'), (2001, '4K Monitor', 'Ultra HD 4K display with vibrant colors and slim bezel.'), (2002, 'Bluetooth Mechanical Keyboard', 'Wireless mechanical keyboard with RGB lighting and hot-swappable switches.'), (2003, 'Vertical Ergonomic Mouse', 'Ergonomic vertical mouse to reduce wrist strain.'), (2004, 'Standing Desk Converter', 'Height-adjustable desk converter for standing work setup.'), (2005, 'Wireless Charging Pad', 'Qi-compatible wireless charger for phones and earbuds.'), (2006, 'Smart Plug', 'WiFi-enabled smart plug with timer and voice assistant support.'), (2007, 'Webcam Cover', 'Privacy shutter for laptops and external webcams.'), (2008, 'Laptop Cooling Pad', 'Silent cooling pad with dual fans and adjustable angle.'), (2009, 'USB-C Hub', '7-in-1 USB-C hub with HDMI, SD card reader, and multiple ports.'), (2010, 'Noise-Isolating Earbuds', 'In-ear earbuds with passive noise isolation and deep bass.'), (2011, 'Wireless Presenter Remote', 'Presentation remote with laser pointer and slide control.'), (2012, 'LED Light Strip', 'Smart RGB LED strip light with app and voice control.'), (2013, 'Docking Station', 'Universal laptop docking station with dual monitor support.'), (2014, 'HDMI Capture Card', '1080p video capture card for streaming and recording.'), (2015, 'Portable Monitor', 'Slim portable 15.6" monitor with USB-C connectivity.')]
+2025-04-04 14:58:30,346 - INFO - Saved conversation for user 'Kana' to MongoDB.
+2025-04-04 14:58:30,347 - INFO - 📩 Saved conversation for API user 'Kana'.
+2025-04-04 14:58:30,396 - INFO - 127.0.0.1 - - [04/Apr/2025 14:58:30] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+2025-04-04 14:58:30,436 - INFO - 127.0.0.1 - - [04/Apr/2025 14:58:30] "GET /chat-ui HTTP/1.1" 200 -
+2025-04-04 14:58:30,546 - INFO - 127.0.0.1 - - [04/Apr/2025 14:58:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-04 14:58:30,558 - INFO - 127.0.0.1 - - [04/Apr/2025 14:58:30] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+2025-04-04 14:58:30,564 - INFO - 127.0.0.1 - - [04/Apr/2025 14:58:30] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -
+2025-04-04 14:58:55,157 - INFO - ✅ Found 1 FAQ match(es).
+2025-04-04 14:58:55,304 - INFO - No order ID found in question.
+2025-04-04 14:58:55,408 - INFO - Product found by name match.
+2025-04-04 15:02:38,583 - INFO - LLM response successfully received.
+2025-04-04 15:02:39,227 - INFO - Saved conversation for user 'Kana' to MongoDB.
+2025-04-04 15:02:39,229 - INFO - 📩 Saved conversation for API user 'Kana'.
+2025-04-04 15:02:39,584 - INFO - 127.0.0.1 - - [04/Apr/2025 15:02:39] "[32mPOST /chat-ui HTTP/1.1[0m" 302 -
+2025-04-04 15:02:39,925 - INFO - 127.0.0.1 - - [04/Apr/2025 15:02:39] "GET /chat-ui HTTP/1.1" 200 -
+2025-04-04 15:02:42,344 - INFO - 127.0.0.1 - - [04/Apr/2025 15:02:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-04 15:02:42,347 - INFO - 127.0.0.1 - - [04/Apr/2025 15:02:42] "[36mGET /static/user.jpeg HTTP/1.1[0m" 304 -
+2025-04-04 15:02:42,356 - INFO - 127.0.0.1 - - [04/Apr/2025 15:02:42] "[36mGET /static/ai.png HTTP/1.1[0m" 304 -

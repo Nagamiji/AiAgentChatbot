@@ -1,3 +1,4 @@
+import logging
 from db.postgres import (
     search_faq,
     search_orders,
@@ -8,7 +9,6 @@ from llm.prompt_builder import build_prompt
 from llm.ollama_client import ask_ollama as call_llm
 from db.mongo_logger import save_conversation
 from tabulate import tabulate
-import logging
 
 # -----------------------------
 # 📊 Format Data as Text Table
@@ -33,6 +33,9 @@ def format_as_html_table(data, headers=("ID", "Name", "Description")):
 # -----------------------------
 # 🧠 Core Logic (shared)
 # -----------------------------
+# -----------------------------
+# 🧠 Core Logic (shared)
+# -----------------------------
 def process_question(user_question, is_web=False):
     """
     Main logic flow: detects if the question needs special DB logic,
@@ -40,32 +43,44 @@ def process_question(user_question, is_web=False):
     `is_web=True` returns an HTML table when appropriate.
     """
 
-    # 🛒 Special case: List products in stock
-    if "products in stock" in user_question.lower() or "available products" in user_question.lower():
-        logging.info("🔍 Detected product stock inquiry. Fetching product list...")
-        products = get_all_products()
+    try:
+        # 🛒 Special case: List products in stock
+        if "products in stock" in user_question.lower() or "available products" in user_question.lower():
+            logging.info("🔍 Detected product stock inquiry. Fetching product list...")
+            products = get_all_products()
 
-        if not products:
-            return "Sorry, there are no products in stock right now.", "get_all_products()"
+            # Log what products are returned
+            if products:
+                logging.info(f"Found products: {products}")
+            else:
+                logging.info("No products found in stock.")
 
-        if is_web:
-            table = format_as_html_table(products, headers=["Product ID", "Name", "Description"])
-            response = f"🛒 <b>Here are the products currently in stock:</b><br><br>{table}"
-        else:
-            table = format_as_table(products, headers=["Product ID", "Name", "Description"])
-            response = f"🛒 Here are the products currently in stock:\n\n{table}"
+            if not products:
+                return "Sorry, there are no products in stock right now.", "get_all_products()"
 
-        return response, "get_all_products()"
+            if is_web:
+                table = format_as_html_table(products, headers=["Product ID", "Name", "Description"])
+                response = f"🛒 <b>Here are the products currently in stock:</b><br><br>{table}"
+            else:
+                table = format_as_table(products, headers=["Product ID", "Name", "Description"])
+                response = f"🛒 Here are the products currently in stock:\n\n{table}"
 
-    # 🧠 Default: Search RAG + Orders + Products → LLM
-    faq = search_faq(user_question)
-    order = search_orders(user_question)
-    product = search_products(user_question)
+            return response, "get_all_products()"
 
-    prompt = build_prompt(user_question, faq, order, product)
-    response = call_llm(prompt)
+        # 🧠 Default: Search RAG + Orders + Products → LLM
+        faq = search_faq(user_question)
+        order = search_orders(user_question)
+        product = search_products(user_question)
 
-    return response, prompt
+        # Build prompt for LLM
+        prompt = build_prompt(user_question, faq, order, product)
+        response = call_llm(prompt)
+
+        return response, prompt
+
+    except Exception as e:
+        logging.error(f"Error processing question: {e}")
+        return f"Sorry, an error occurred while processing your request: {str(e)}", "error"
 
 # -----------------------------
 # 💬 CLI Chat Handler
@@ -102,3 +117,17 @@ def handle_chat_api(user_question, user="anonymous", save_to_db=True):
         logging.info(f"API call with no Mongo save for user '{user}'.")
 
     return response, prompt
+
+# -----------------------------
+# Set up logging to handle Unicode characters properly
+# -----------------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.StreamHandler()]
+)
+
+# If you need to log to a file with Unicode support:
+file_handler = logging.FileHandler('app.log', encoding='utf-8')
+file_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+logging.getLogger().addHandler(file_handler)

@@ -84,6 +84,7 @@
             </select>
             <button type="submit">Send</button>
         </form>
+        
 
         <!-- ✅ Chat Log -->
         <div class="chat-log" id="chat-log">
@@ -115,7 +116,7 @@
             if (chatLog) {
                 chatLog.scrollTop = chatLog.scrollHeight;
             }
-    
+
             const modeSelect = document.querySelector('select[name="chat_mode"]');
             if (modeSelect) {
                 modeSelect.addEventListener('change', function () {

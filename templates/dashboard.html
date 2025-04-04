@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, {{ current_user.username }}!</h1>
+        <p>This is your personalized dashboard.</p>
+
+        <h2>Your Chat History:</h2>
+        {% if current_user.chat_history %}
+            <ul>
+                {% for chat in current_user.chat_history %}
+                    <li>
+                        <a href="{{ url_for('view_chat', chat_id=chat['_id']) }}">Chat on {{ chat['timestamp'] }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>You don't have any chat history yet.</p>
+        {% endif %}
+
+        <a href="{{ url_for('auth.logout') }}">Logout</a>
+    </div>
+</body>
+</html>

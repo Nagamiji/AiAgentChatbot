@@ -30,21 +30,18 @@ def search_faq(question, top_k=1):
         return []
 
     try:
-        conn = get_connection()
-        cur = conn.cursor()
-        cur.execute("""
-            SELECT question, answer
-            FROM rag
-            ORDER BY embedding <-> %s::vector
-            LIMIT %s;
-        """, (embedding, top_k))
-        results = cur.fetchall()
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute("""
+                    SELECT question, answer
+                    FROM rag
+                    ORDER BY embedding <-> %s::vector
+                    LIMIT %s;
+                """, (embedding, top_k))
+                results = cur.fetchall()
     except Exception as e:
         logging.error(f"FAQ search failed: {e}")
         results = []
-    finally:
-        cur.close()
-        conn.close()
 
     if results:
         logging.info(f"✅ Found {len(results)} FAQ match(es).")
@@ -67,16 +64,13 @@ def search_orders(question):
 
     order_id = int(match.group(1))
     try:
-        conn = get_connection()
-        cur = conn.cursor()
-        cur.execute("SELECT * FROM orders WHERE ordernumber = %s;", (order_id,))
-        order = cur.fetchone()
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute("SELECT * FROM orders WHERE ordernumber = %s;", (order_id,))
+                order = cur.fetchone()
     except Exception as e:
         logging.error(f"Order query failed: {e}")
         order = None
-    finally:
-        cur.close()
-        conn.close()
 
     if order:
         logging.info(f"✅ Order found: #{order_id}")
@@ -93,30 +87,27 @@ def search_products(question):
     Tries to find a product either by ID in the question or fuzzy name matching.
     """
     try:
-        conn = get_connection()
-        cur = conn.cursor()
-        match = re.search(r"product\s*(\d+)", question, re.IGNORECASE)
-        if match:
-            product_id = int(match.group(1))
-            cur.execute("SELECT productid, name, description FROM products WHERE productid = %s;", (product_id,))
-            product = cur.fetchone()
-            log_msg = f"Product found by ID: {product_id}" if product else f"No product found by ID: {product_id}"
-        else:
-            cur.execute("""
-                SELECT productid, name, description
-                FROM products
-                ORDER BY similarity(name, %s) DESC
-                LIMIT 1;
-            """, (question,))
-            product = cur.fetchone()
-            log_msg = f"Product found by name match." if product else "No product found by name."
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                match = re.search(r"product\s*(\d+)", question, re.IGNORECASE)
+                if match:
+                    product_id = int(match.group(1))
+                    cur.execute("SELECT productid, name, description FROM products WHERE productid = %s;", (product_id,))
+                    product = cur.fetchone()
+                    log_msg = f"Product found by ID: {product_id}" if product else f"No product found by ID: {product_id}"
+                else:
+                    cur.execute("""
+                        SELECT productid, name, description
+                        FROM products
+                        ORDER BY similarity(name, %s) DESC
+                        LIMIT 1;
+                    """, (question,))
+                    product = cur.fetchone()
+                    log_msg = f"Product found by name match." if product else "No product found by name."
     except Exception as e:
         logging.error(f"Product search failed: {e}")
         product = None
         log_msg = "Product search error."
-    finally:
-        cur.close()
-        conn.close()
 
     logging.info(log_msg) if product else logging.warning(log_msg)
     return product
@@ -129,15 +120,12 @@ def get_all_products():
     Returns all products currently stored in the database.
     """
     try:
-        conn = get_connection()
-        cur = conn.cursor()
-        cur.execute("SELECT productid, name, description FROM products;")
-        products = cur.fetchall()
+        with get_connection() as conn:
+            with conn.cursor() as cur:
+                cur.execute("SELECT productid, name, description FROM products;")
+                products = cur.fetchall()
     except Exception as e:
         logging.error(f"Failed to retrieve all products: {e}")
         products = []
-    finally:
-        cur.close()
-        conn.close()
 
     return products
